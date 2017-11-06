@@ -1,0 +1,10 @@
+11-02-2017 12:17:15 AM : =============================================================================================
+11-02-2017 12:17:15 AM : beginning run
+11-02-2017 12:17:15 AM : final: False, N: 10, N_0: 4, run_mode: single, data_file_name: data.csv
+11-02-2017 12:17:15 AM : headers written for new test csv file
+11-02-2017 12:17:15 AM : beginning run 10
+11-02-2017 12:17:39 AM : recursive generation of length 10 took 23.543376 s
+11-02-2017 12:17:39 AM : 16 min configs found for SAW of length 10
+11-02-2017 12:17:39 AM : making plot with 4 rows and 4 cols
+11-02-2017 12:17:40 AM : plot for SAW of length 10 saved
+11-02-2017 12:17:40 AM : run complete

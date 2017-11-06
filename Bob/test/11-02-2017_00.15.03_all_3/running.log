@@ -1,0 +1,15 @@
+11-02-2017 12:15:03 AM : =============================================================================================
+11-02-2017 12:15:03 AM : beginning run
+11-02-2017 12:15:03 AM : final: False, N: 3, N_0: 4, run_mode: all, data_file_name: data.csv
+11-02-2017 12:15:03 AM : headers written for new test csv file
+11-02-2017 12:15:03 AM : beginning run 2 of 3
+11-02-2017 12:15:03 AM : recursive generation of length 2 took 0.521217 ms
+11-02-2017 12:15:03 AM : 4 min configs found for SAW of length 2
+11-02-2017 12:15:03 AM : making plot with 2 rows and 2 cols
+11-02-2017 12:15:03 AM : plot for SAW of length 2 saved
+11-02-2017 12:15:03 AM : beginning run 3 of 3
+11-02-2017 12:15:03 AM : recursive generation of length 3 took 0.668924 ms
+11-02-2017 12:15:03 AM : 4 min configs found for SAW of length 3
+11-02-2017 12:15:03 AM : making plot with 2 rows and 2 cols
+11-02-2017 12:15:04 AM : plot for SAW of length 3 saved
+11-02-2017 12:15:04 AM : run complete

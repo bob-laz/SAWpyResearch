@@ -1,0 +1,62 @@
+11-05-2017 12:16:34 AM : =============================================================================================
+11-05-2017 12:16:34 AM : beginning run
+11-05-2017 12:16:34 AM : final: False, N: 10, N_0: 4, run_mode: all, data_file_name: data.csv
+11-05-2017 12:16:34 AM : headers written for new test csv file
+11-05-2017 12:16:34 AM : beginning run 2 of 10
+11-05-2017 12:16:36 AM : computation of 30 SAWs completed
+11-05-2017 12:16:36 AM : recursive generation of length 2 took 1.285852 s
+11-05-2017 12:16:36 AM : 4 min configs found for SAW of length 2
+11-05-2017 12:16:36 AM : making plot with 2 rows and 2 cols
+11-05-2017 12:16:37 AM : plot for SAW of length 2 saved
+11-05-2017 12:16:37 AM : beginning run 3 of 10
+11-05-2017 12:16:38 AM : computation of 150 SAWs completed
+11-05-2017 12:16:38 AM : recursive generation of length 3 took 1.328034 s
+11-05-2017 12:16:38 AM : 4 min configs found for SAW of length 3
+11-05-2017 12:16:38 AM : making plot with 2 rows and 2 cols
+11-05-2017 12:16:39 AM : plot for SAW of length 3 saved
+11-05-2017 12:16:39 AM : beginning run 4 of 10
+11-05-2017 12:16:39 AM : computation of 726 SAWs completed
+11-05-2017 12:16:39 AM : recursive generation of length 4 took 4.225066 ms
+11-05-2017 12:16:39 AM : 16 min configs found for SAW of length 4
+11-05-2017 12:16:39 AM : making plot with 4 rows and 4 cols
+11-05-2017 12:16:41 AM : plot for SAW of length 4 saved
+11-05-2017 12:16:41 AM : beginning run 5 of 10
+11-05-2017 12:16:41 AM : computation of 3534 SAWs completed
+11-05-2017 12:16:41 AM : recursive generation of length 5 took 16.844927 ms
+11-05-2017 12:16:41 AM : 8 min configs found for SAW of length 5
+11-05-2017 12:16:41 AM : making plot with 3 rows and 3 cols
+11-05-2017 12:16:41 AM : fewer plot required than generated, deleting extra plots
+11-05-2017 12:16:42 AM : plot for SAW of length 5 saved
+11-05-2017 12:16:42 AM : beginning run 6 of 10
+11-05-2017 12:16:42 AM : computation of 16926 SAWs completed
+11-05-2017 12:16:42 AM : recursive generation of length 6 took 77.191786 ms
+11-05-2017 12:16:42 AM : 16 min configs found for SAW of length 6
+11-05-2017 12:16:42 AM : making plot with 4 rows and 4 cols
+11-05-2017 12:16:43 AM : plot for SAW of length 6 saved
+11-05-2017 12:16:43 AM : beginning run 7 of 10
+11-05-2017 12:16:43 AM : computation of 81390 SAWs completed
+11-05-2017 12:16:43 AM : recursive generation of length 7 took 375.715780 ms
+11-05-2017 12:16:43 AM : 8 min configs found for SAW of length 7
+11-05-2017 12:16:43 AM : making plot with 3 rows and 3 cols
+11-05-2017 12:16:44 AM : fewer plot required than generated, deleting extra plots
+11-05-2017 12:16:45 AM : plot for SAW of length 7 saved
+11-05-2017 12:16:45 AM : beginning run 8 of 10
+11-05-2017 12:16:46 AM : computation of 387966 SAWs completed
+11-05-2017 12:16:46 AM : recursive generation of length 8 took 1.897835 s
+11-05-2017 12:16:46 AM : 16 min configs found for SAW of length 8
+11-05-2017 12:16:46 AM : making plot with 4 rows and 4 cols
+11-05-2017 12:16:48 AM : plot for SAW of length 8 saved
+11-05-2017 12:16:48 AM : beginning run 9 of 10
+11-05-2017 12:16:57 AM : computation of 1853886 SAWs completed
+11-05-2017 12:16:57 AM : recursive generation of length 9 took 9.019285 s
+11-05-2017 12:16:57 AM : 16 min configs found for SAW of length 9
+11-05-2017 12:16:57 AM : making plot with 4 rows and 4 cols
+11-05-2017 12:16:59 AM : plot for SAW of length 9 saved
+11-05-2017 12:16:59 AM : beginning run 10 of 10
+11-05-2017 12:17:18 AM : completed 3944586 of 8809878
+11-05-2017 12:17:41 AM : computation of 8809878 SAWs completed
+11-05-2017 12:17:41 AM : recursive generation of length 10 took 42.362300 s
+11-05-2017 12:17:41 AM : 16 min configs found for SAW of length 10
+11-05-2017 12:17:41 AM : making plot with 4 rows and 4 cols
+11-05-2017 12:17:43 AM : plot for SAW of length 10 saved
+11-05-2017 12:17:43 AM : run complete
