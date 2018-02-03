@@ -1,5 +1,6 @@
 import csv
 import logging
+import os
 
 
 log = logging.getLogger('__main__')
@@ -56,20 +57,26 @@ def setup_csv(data_file, is_final, csv_header):
     # if final, check to see if header is present and accurate
     if is_final:
         data_list = []  # store data currently in csv
-        with open(data_file, newline='') as csv_file_read:
-            reader = csv.reader(csv_file_read)
-            data_list.extend(reader)
-            # if file is empty or doesn't match expected, overwrite header while re-writing the rest of the data
-            if not data_list or not data_list[0] == csv_header:
-                line_to_override = {0: csv_header}
-                with open(data_file, 'w', newline='') as csv_file_write:
-                    writer = csv.writer(csv_file_write)
-                    for line, row in enumerate(data_list):
-                        data = line_to_override.get(line, row)
-                        writer.writerow(data)
-                log.info("found problem with headers, overwrote new headers")
-            else:
-                log.info("headers found to be present and correct, not written")
+        if os.path.exists(data_file):
+            with open(data_file, newline='') as csv_file_read:
+                reader = csv.reader(csv_file_read)
+                data_list.extend(reader)
+                # if file is empty or doesn't match expected, overwrite header while re-writing the rest of the data
+                if not data_list or not data_list[0] == csv_header:
+                    line_to_override = {0: csv_header}
+                    with open(data_file, 'w', newline='') as csv_file_write:
+                        writer = csv.writer(csv_file_write)
+                        for line, row in enumerate(data_list):
+                            data = line_to_override.get(line, row)
+                            writer.writerow(data)
+                    log.info("found problem with headers, overwrote new headers")
+                else:
+                    log.info("headers found to be present and correct, not written")
+        else:
+            with open(data_file, 'w', newline='') as csv_file_write:
+                writer = csv.writer(csv_file_write)
+                writer.writerow(csv_header)
+            log.info("headers written for new test csv file")
     else:
         with open(data_file, 'w', newline='') as csv_file_write:
             writer = csv.writer(csv_file_write)

@@ -5,8 +5,7 @@ from Bob.csv_writing import write_to_file
 from Bob.plotting import plot_saw
 import logging
 import random
-from numba import jitclass
-from numba import int32, float32
+import gc
 
 log = logging.getLogger('__main__')
 total_possible_walks = {
@@ -23,7 +22,29 @@ total_possible_walks = {
     11: 41934150,
     12: 198842742,
     13: 943974510,
-    14: 4468911678
+    14: 4468911678,
+    15: 2175146054,
+    16: 100121875974,
+    17: 473730252102,
+    18: 2237723684094,
+    19: 10576033219614,
+    20: 49917327838734,
+    21: 235710090502158,
+    22: 1111781983442406,
+    23: 5245988215191414,
+    24: 24730180885580790,
+    25: 116618841700433358,
+    26: 549493796867100942,
+    27: 2589874864863200574,
+    28: 12198184788179866902,
+    29: 57466913094951837030,
+    30: 270569905525454674614,
+    31: 1274191064726416905966,
+    32: 5997359460809616886494,
+    33: 28233744272563685150118,
+    34: 132853629626823234210582,
+    35: 625248129452557974777990,
+    36: 2941370856334701726560670
 }
 
 
@@ -33,6 +54,7 @@ class MinEnergyMatrix:
     """
 
     def __init__(self, min_energy, matrix_config):
+        self.total_checked = 0
         self.min_energy = min_energy
         self.matrix_config = matrix_config
 
@@ -43,7 +65,6 @@ class MinEnergyMatrix:
         return ret_val
 
 
-@jit
 def do_run(n, data_file, directory, final):
     """
     Executes the computation of one SAW of a given length, write to file and saves image of the plot
@@ -53,14 +74,13 @@ def do_run(n, data_file, directory, final):
     :param final: true if writing to final directory, false if writing to test
     :return:
     """
-    energy_list = []
     min_config_main = MinEnergyMatrix(float('inf'), [])
     matrix = np.zeros(shape=(n + 1, 3), dtype=np.float32)
     matrix[0, :] = [0, 0, 0]
-    matrix[1, :] = [1, 0, 0]
+    matrix[n:] = [1, 1, 0] if n % 2 == 0 else [1, 0, 0]
     start = time.clock()
-    energies = recursively_generate_saws(1, matrix, energy_list, min_config_main)
-    log.info("computation of %s SAWs completed" % str(len(energies) * 6))
+    min_config_main = recursively_generate_saws_memory_optimized(0, matrix, min_config_main)
+    log.info("computation of %s SAWs completed" % str(min_config_main.total_checked))
     end = time.clock()
     total_time = end - start
     if total_time < 1:
@@ -75,7 +95,7 @@ def do_run(n, data_file, directory, final):
         seconds = total_time % 60
         scaled_time = '%d hr %d min %d s' % (hours, minutes, seconds)
     log.info("recursive generation of length %i took %s" % (n, scaled_time))
-    write_to_file(data_file, final, n, min(energy_list), scaled_time, len(energy_list) * 6,
+    write_to_file(data_file, final, n, min_config_main.min_energy, scaled_time, min_config_main.total_checked,
                   len(min_config_main.matrix_config))
     plot_saw(n, min_config_main, directory)
 
@@ -104,7 +124,7 @@ def energy_of_saw(saw_matrix):
             direction_j = directions[j]
             midpoint_j = midpoints[j]
             dot_product = (direction_i[0] * direction_j[0]) + (direction_i[1] * direction_j[1]) + (
-                direction_i[2] * direction_j[2])
+                    direction_i[2] * direction_j[2])
             x_dif = (midpoints_i[0] - midpoint_j[0]) ** 2.0
             y_dif = (midpoints_i[1] - midpoint_j[1]) ** 2.0
             z_dif = (midpoints_i[2] - midpoint_j[2]) ** 2.0
@@ -165,15 +185,26 @@ def find_directions(prev_point, point):
         options[2, :] = [0, 1, 0]
         options[3, :] = [0, -1, 0]
         options[4, :] = [0, 0, direction_vector[2]]
+    else:
+        options = np.zeros(shape=(6, 3), dtype=np.int32)
+        options[0, :] = [1, 0, 0]
+        options[1, :] = [-1, 0, 0]
+        options[2, :] = [0, 1, 0]
+        options[3, :] = [0, -1, 0]
+        options[4, :] = [0, 0, 1]
+        options[5, :] = [0, 0, -1]
     return options
 
 
-def recursively_generate_saws(point_n, working_matrix, energies, min_config):
+def unknown_total_saws(n: int):
+    return int(round(1.215 * (4.6850501 ** n) * (n ** 0.15698) * (1 + 0.019705621844 * n ** -0.53)))
+
+
+def recursively_generate_saws(point_n: int, working_matrix: np.ndarray, min_config: MinEnergyMatrix):
     """
     Recursively generates all possible self avoiding walks
     :param point_n: point in the walk we are on, between 1 and N
     :param working_matrix: the x y z coordinates of SAW generated so far, N x 3 matrix
-    :param energies: list of floating point numbers holding energies for each SAW
     :param min_config: object storing current min energy and configurations that have this energy
     :return: the list of energies for each SAW
     """
@@ -182,40 +213,87 @@ def recursively_generate_saws(point_n, working_matrix, energies, min_config):
     # a single point, used to find direction vector
     point = current_matrix[point_n, :].copy()
     # point before current point, used to find possible directions vector
-    previous_point = current_matrix[point_n - 1, :].copy()
+    previous_point = current_matrix[point_n - 1, :].copy() if point_n != 0 else point
     # returns all possible directions given the current direction
     options = find_directions(previous_point, point)
     # go through all possible options and find which directions are self-avoiding
     for pt in options:
         # find the next point with the given vector
         current_matrix[point_n + 1, :] = current_matrix[point_n, :] + pt
-        # check to see if the filament intersects itself
-        check = matrix_comparison(current_matrix[point_n + 1:point_n + 2, :], current_matrix[0:point_n, :])
+        # get the xyz coordinates of current point
+        current_xyz = current_matrix[point_n + 1]
+        # get the xyz coordinates of end point
+        end_xyz = current_matrix[len(current_matrix) - 1]
+        # calculate the lattice distance between current and end
+        distance_to_end = int(abs(current_xyz[0] - end_xyz[0]) + abs(current_xyz[1] - end_xyz[1]) + abs(
+            current_xyz[2] - end_xyz[2]))
+        # check number of segments remaining in walk
+        length_remaining = (len(current_matrix) - 1) - (point_n + 1)
+        # if distance from end is more than segments remaining or if intersecting end point, False
+        # eliminates having to do a matrix comparision later
+        check1 = False if ((distance_to_end > length_remaining) or distance_to_end == 0) else True
         # if the filament does not intersect itself continue
-        if not check:
-            current_matrix_copy = current_matrix.copy()
-            # if the filament is shorter than N make a recursive call
-            if point_n <= working_matrix.shape[0] - 3:
-                recursively_generate_saws(point_n + 1, current_matrix_copy, energies, min_config)
-            # else add the energy of the filament to the energy list
-            else:
-                # calculate energy of current configuration
-                this_energy = energy_of_saw(current_matrix_copy)
-                # append to energy list
-                energies.append(this_energy)
-                # check if energy of this config is equal to min energy of filaments of this length with machine epsilon
-                if abs(min_config.min_energy - this_energy) < 10 * np.finfo(float).eps:
-                    # add to min energy list
-                    min_config.matrix_config.append(current_matrix_copy)
-                # check if energy of this config is less than min energy of filaments of this length
-                elif this_energy < min_config.min_energy:
-                    # set min energy to this config's energy value
-                    min_config.min_energy = this_energy
-                    # clear min configs stored so far
-                    min_config.matrix_config.clear()
-                    # add this config to list of min configs
-                    min_config.matrix_config.append(current_matrix_copy)
+        if check1:
+            # check to see if the filament intersects itself
+            check2 = matrix_comparison(current_matrix[point_n + 1:point_n + 2, :], current_matrix[0:point_n, :])
+            if not check2:
+                current_matrix_copy = current_matrix.copy()
+                # if the filament is shorter than N-1 make a recursive call
+                if point_n < working_matrix.shape[0] - 3:
+                    recursively_generate_saws(point_n + 1, current_matrix_copy, min_config)
+                # else add the energy of the filament to the energy list
+                else:
+                    # calculate energy of current configuration
+                    this_energy = energy_of_saw(current_matrix_copy)
+                    # append to energy list
+                    min_config.total_checked += 1
+                    # check if energy of this config is equal to min energy of filaments of this length with machine epsilon
+                    if abs(min_config.min_energy - this_energy) < 10 * np.finfo(float).eps:
+                        # add to min energy list
+                        min_config.matrix_config.append(current_matrix_copy)
+                    # check if energy of this config is less than min energy of filaments of this length
+                    elif this_energy < min_config.min_energy:
+                        # set min energy to this config's energy value
+                        min_config.min_energy = this_energy
+                        # clear min configs stored so far
+                        min_config.matrix_config.clear()
+                        # add this config to list of min configs
+                        min_config.matrix_config.append(current_matrix_copy)
     if random.random() < 0.0000001:
-        total = str(total_possible_walks.get(working_matrix.shape[0] - 1)) if total_possible_walks.get(working_matrix.shape[0] - 1) is not None else '?'
-        log.info("completed %s of %s" % (str(len(energies) * 6), total))
-    return energies
+        log.info("completed %s so far" % (str(min_config.total_checked)))
+        gc.collect()
+    return min_config
+
+
+def recursively_generate_saws_memory_optimized(point_n: int, working_matrix: np.ndarray,
+                                               min_config: MinEnergyMatrix):
+    current_matrix = working_matrix.copy()
+    options = find_directions(
+        current_matrix[point_n - 1, :].copy() if point_n != 0 else current_matrix[point_n, :].copy(),
+        current_matrix[point_n, :].copy())
+    for pt in options:
+        current_matrix[point_n + 1, :] = current_matrix[point_n, :] + pt
+        if not int(abs(current_matrix[point_n + 1][0] - current_matrix[len(current_matrix) - 1][0]) + abs(
+                current_matrix[point_n + 1][1] - current_matrix[len(current_matrix) - 1][1]) + abs(
+            current_matrix[point_n + 1][2] - current_matrix[len(current_matrix) - 1][2])) > (
+                       len(current_matrix) - 1) - (point_n + 1) and not int(
+            abs(current_matrix[point_n + 1][0] - current_matrix[len(current_matrix) - 1][0]) + abs(
+                current_matrix[point_n + 1][1] - current_matrix[len(current_matrix) - 1][1]) + abs(
+                current_matrix[point_n + 1][2] - current_matrix[len(current_matrix) - 1][2])) == 0:
+            if not matrix_comparison(current_matrix[point_n + 1:point_n + 2, :], current_matrix[0:point_n, :]):
+                current_matrix_copy = current_matrix.copy()
+                if point_n < working_matrix.shape[0] - 3:
+                    recursively_generate_saws_memory_optimized(point_n + 1, current_matrix_copy, min_config)
+                else:
+                    this_energy = energy_of_saw(current_matrix_copy)
+                    min_config.total_checked += 1
+                    if abs(min_config.min_energy - this_energy) < 10 * np.finfo(float).eps:
+                        min_config.matrix_config.append(current_matrix_copy)
+                    elif this_energy < min_config.min_energy:
+                        min_config.min_energy = this_energy
+                        min_config.matrix_config.clear()
+                        min_config.matrix_config.append(current_matrix_copy)
+    if random.random() < 0.0000001:
+        log.info("garbage collected, status: %s" % min_config.total_checked)
+        gc.collect()
+    return min_config
