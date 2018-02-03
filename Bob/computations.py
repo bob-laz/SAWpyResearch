@@ -3,9 +3,9 @@ from numba import jit
 import time
 from Bob.csv_writing import write_to_file
 from Bob.plotting import plot_saw
+from Bob.MinEnergyMatrix import MinEnergyMatrix
 import logging
 import random
-import gc
 
 log = logging.getLogger('__main__')
 total_possible_walks = {
@@ -23,7 +23,7 @@ total_possible_walks = {
     12: 198842742,
     13: 943974510,
     14: 4468911678,
-    15: 2175146054,
+    15: 21175146054,
     16: 100121875974,
     17: 473730252102,
     18: 2237723684094,
@@ -46,23 +46,6 @@ total_possible_walks = {
     35: 625248129452557974777990,
     36: 2941370856334701726560670
 }
-
-
-class MinEnergyMatrix:
-    """
-    Stores the minimum energy value and configurations with the energy for a saw of a particular length
-    """
-
-    def __init__(self, min_energy, matrix_config):
-        self.total_checked = 0
-        self.min_energy = min_energy
-        self.matrix_config = matrix_config
-
-    def __str__(self):
-        ret_val = "Min energy: " + str(self.min_energy) + "\n"
-        for k in range(0, len(self.matrix_config)):
-            ret_val += np.array2string(self.matrix_config[k], separator=",", precision=0) + ";\n"
-        return ret_val
 
 
 def do_run(n, data_file, directory, final):
@@ -95,8 +78,7 @@ def do_run(n, data_file, directory, final):
         seconds = total_time % 60
         scaled_time = '%d hr %d min %d s' % (hours, minutes, seconds)
     log.info("recursive generation of length %i took %s" % (n, scaled_time))
-    write_to_file(data_file, final, n, min_config_main.min_energy, scaled_time, min_config_main.total_checked,
-                  len(min_config_main.matrix_config))
+    write_to_file(data_file, final, n, min_config_main, scaled_time)
     plot_saw(n, min_config_main, directory)
 
 
@@ -261,12 +243,10 @@ def recursively_generate_saws(point_n: int, working_matrix: np.ndarray, min_conf
                         min_config.matrix_config.append(current_matrix_copy)
     if random.random() < 0.0000001:
         log.info("completed %s so far" % (str(min_config.total_checked)))
-        gc.collect()
     return min_config
 
 
-def recursively_generate_saws_memory_optimized(point_n: int, working_matrix: np.ndarray,
-                                               min_config: MinEnergyMatrix):
+def recursively_generate_saws_memory_optimized(point_n, working_matrix, min_config):
     current_matrix = working_matrix.copy()
     options = find_directions(
         current_matrix[point_n - 1, :].copy() if point_n != 0 else current_matrix[point_n, :].copy(),
@@ -294,6 +274,5 @@ def recursively_generate_saws_memory_optimized(point_n: int, working_matrix: np.
                         min_config.matrix_config.clear()
                         min_config.matrix_config.append(current_matrix_copy)
     if random.random() < 0.0000001:
-        log.info("garbage collected, status: %s" % min_config.total_checked)
-        gc.collect()
+        log.info("status: %s" % min_config.total_checked)
     return min_config

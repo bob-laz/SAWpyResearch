@@ -4,6 +4,7 @@ import os
 from datetime import datetime
 import sys
 import logging
+import gc
 
 """ SET THESE
 N: max filament length to generate
@@ -12,9 +13,9 @@ run_mode: all runs 2 to N, subset runs N_0 to N, single runs N, inf runs indefin
 final: true to output to final folder, false to output to test folder
 data_file_name: name of data csv file to write to
 """
-N = 30
-N_0 = 15
-run_mode = 'subset'  # all, subset, inf, single
+N = 20
+N_0 = 2
+run_mode = 'all'  # all, subset, inf, single
 final = True
 data_file_name = 'data.csv'
 """"""
@@ -58,16 +59,19 @@ if run_mode == 'all':
     for i in range(2, N + 1):
         logging.info("beginning run %i of %i" % (i, N))
         do_run(i, file, directory, final)
+        gc.collect()
 # run N_0 to N
 elif run_mode == 'subset':
     for i in range(N_0, N + 1):
         logging.info("beginning run %i of %i" % (i, N))
         do_run(i, file, directory, final)
+        gc.collect()
 # run indefinitely
 elif run_mode == 'inf':
     for i in range(2, 1001):
         logging.info("beginning run %i of inf" % i)
         do_run(i, file, directory, final)
+        gc.collect()
 # run N
 elif run_mode == 'single':
     logging.info("beginning run %i" % N)

@@ -1,0 +1,14 @@
+Min energy: 0.0
+Total checked: 2
+Min configs: 2
+[[ 0., 0., 0.],
+ [ 1., 0., 0.],
+ [ 1., 1., 0.]];
+
+[[ 0., 0., 0.],
+ [ 0., 1., 0.],
+ [ 1., 1., 0.]];
+
+Energy computation factored:
+0.0 / sqrt(0.5) : 1
+Total interactions: 1

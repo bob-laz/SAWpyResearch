@@ -3,12 +3,13 @@ from mpl_toolkits.mplot3d import Axes3D
 import math
 import numpy as np
 import logging
+from Bob.MinEnergyMatrix import MinEnergyMatrix
 
 
 log = logging.getLogger('__main__')
 
 
-def plot_saw(num_segments, min_configs, directory):
+def plot_saw(num_segments: int, min_configs: MinEnergyMatrix, directory: str):
     """
     Plots all minimum energy SAWs of the length specified in num_segments, this length must be <= max saw length
     generated in main
