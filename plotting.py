@@ -3,10 +3,10 @@ from mpl_toolkits.mplot3d import Axes3D
 import math
 import numpy as np
 import logging
-from Bob.MinEnergyMatrix import MinEnergyMatrix
+from MinEnergyMatrix import MinEnergyMatrix
 
 
-log = logging.getLogger('__main__')
+log = logging.getLogger('controller')
 
 
 def plot_saw(num_segments: int, min_configs: MinEnergyMatrix, directory: str):

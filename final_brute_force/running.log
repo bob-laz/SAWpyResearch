@@ -1,0 +1,5 @@
+[01-27-2018 05:08:01 PM - INFO - __main__.py:48 - <module>] =============================================================================================
+[01-27-2018 05:08:01 PM - INFO - __main__.py:49 - <module>] beginning run
+[01-27-2018 05:08:01 PM - INFO - __main__.py:50 - <module>] final: True, N: 15, N_0: 4, run_mode: single, data_file_name: data.csv
+[01-27-2018 05:08:01 PM - INFO - csv_writing.py:72 - setup_csv] headers found to be present and correct, not written
+[01-27-2018 05:08:01 PM - INFO - __main__.py:72 - <module>] beginning run 15

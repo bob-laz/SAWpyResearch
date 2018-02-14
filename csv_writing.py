@@ -1,10 +1,10 @@
 import csv
 import logging
 import os
-from Bob.MinEnergyMatrix import MinEnergyMatrix
+from MinEnergyMatrix import MinEnergyMatrix
 from collections import Counter
 
-log = logging.getLogger('__main__')
+log = logging.getLogger('controller')
 
 
 def write_to_file(data_file: str, is_final: bool, length: int, min_energy_object: MinEnergyMatrix, time: str):
@@ -38,28 +38,24 @@ def write_to_file(data_file: str, is_final: bool, length: int, min_energy_object
                 with open(data_file, 'a', newline='') as csv_file_write:
                     writer = csv.writer(csv_file_write)
                     writer.writerow(new_data)
-        configs_data_file = 'final2/configs/config' + str(length) + '.txt'
-        with open(configs_data_file, 'w') as txt_file_write:
-            txt_file_write.write(min_energy_object.__str__())
-            txt_file_write.write('Energy computation factored:\n')
-            counter = 0
-            for key, val in energy_of_saw_factored(min_energy_object.matrix_config[0]).items():
-                counter += val
-                txt_file_write.write(key + ' : ' + str(val) + '\n')
-            txt_file_write.write('Total interactions: ' + str(counter))
+        config_dir = data_file.split('/')[0] + '/configs'
     else:
         with open(data_file, 'a', newline='') as csv_file_write:
             writer = csv.writer(csv_file_write, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
             writer.writerow(new_data)
-        configs_data_file = 'test/configs/config' + str(length) + '.txt'
-        with open(configs_data_file, 'w') as txt_file_write:
-            txt_file_write.write(min_energy_object.__str__())
-            txt_file_write.write('Energy computation factored:\n')
-            counter = 0
-            for key, val in energy_of_saw_factored(min_energy_object.matrix_config[0]).items():
-                counter += val
-                txt_file_write.write(key + ' : ' + str(val) + '\n')
-            txt_file_write.write('Total interactions: ' + str(counter))
+        file_path = data_file.split('/')
+        config_dir = file_path[0] + '/' + file_path[1] + '/configs'
+    if not os.path.exists(config_dir):
+        os.makedirs(config_dir)
+    configs_data_file = config_dir + '/config' + str(length) + '.txt'
+    with open(configs_data_file, 'w') as txt_file_write:
+        txt_file_write.write(min_energy_object.__str__())
+        txt_file_write.write('Energy computation factored:\n')
+        counter = 0
+        for key, val in energy_of_saw_factored(min_energy_object.matrix_config[0]).items():
+            counter += val
+            txt_file_write.write(key + ' : ' + str(val) + '\n')
+        txt_file_write.write('Total interactions: ' + str(counter))
 
 
 def setup_csv(data_file: str, is_final: bool, csv_header: []):

@@ -1,0 +1,655 @@
+[02-03-2018 07:12:37 PM - INFO - __main__.py:50 - <module>] =============================================================================================
+[02-03-2018 07:12:37 PM - INFO - __main__.py:51 - <module>] beginning run
+[02-03-2018 07:12:37 PM - INFO - __main__.py:52 - <module>] final: True, N: 20, N_0: 18, run_mode: all, data_file_name: data.csv
+[02-03-2018 07:12:37 PM - INFO - csv_writing.py:90 - setup_csv] headers found to be present and correct, not written
+[02-03-2018 07:12:37 PM - INFO - __main__.py:60 - <module>] beginning run 2 of 20
+[02-03-2018 07:12:37 PM - INFO - computations.py:66 - do_run] computation of 2 SAWs completed
+[02-03-2018 07:12:37 PM - INFO - computations.py:80 - do_run] recursive generation of length 2 took 0.667031 ms
+[02-03-2018 07:12:37 PM - INFO - csv_writing.py:29 - write_to_file] overwriting line 2 with new data
+[02-03-2018 07:12:37 PM - INFO - plotting.py:23 - plot_saw] 2 min configs found for SAW of length 2
+[02-03-2018 07:12:37 PM - INFO - plotting.py:26 - plot_saw] making plot with 2 rows and 2 cols
+[02-03-2018 07:12:37 PM - INFO - plotting.py:33 - plot_saw] fewer plot required than generated, deleting extra plots
+[02-03-2018 07:12:37 PM - INFO - plotting.py:84 - plot_saw] plot for SAW of length 2 saved
+[02-03-2018 07:12:37 PM - INFO - __main__.py:60 - <module>] beginning run 3 of 20
+[02-03-2018 07:12:37 PM - INFO - computations.py:66 - do_run] computation of 4 SAWs completed
+[02-03-2018 07:12:37 PM - INFO - computations.py:80 - do_run] recursive generation of length 3 took 0.533744 ms
+[02-03-2018 07:12:37 PM - INFO - csv_writing.py:29 - write_to_file] overwriting line 3 with new data
+[02-03-2018 07:12:37 PM - INFO - plotting.py:23 - plot_saw] 4 min configs found for SAW of length 3
+[02-03-2018 07:12:37 PM - INFO - plotting.py:26 - plot_saw] making plot with 2 rows and 2 cols
+[02-03-2018 07:12:38 PM - INFO - plotting.py:84 - plot_saw] plot for SAW of length 3 saved
+[02-03-2018 07:12:38 PM - INFO - __main__.py:60 - <module>] beginning run 4 of 20
+[02-03-2018 07:12:38 PM - INFO - computations.py:66 - do_run] computation of 16 SAWs completed
+[02-03-2018 07:12:38 PM - INFO - computations.py:80 - do_run] recursive generation of length 4 took 1.517179 ms
+[02-03-2018 07:12:38 PM - INFO - csv_writing.py:29 - write_to_file] overwriting line 4 with new data
+[02-03-2018 07:12:38 PM - INFO - plotting.py:23 - plot_saw] 8 min configs found for SAW of length 4
+[02-03-2018 07:12:38 PM - INFO - plotting.py:26 - plot_saw] making plot with 3 rows and 3 cols
+[02-03-2018 07:12:38 PM - INFO - plotting.py:33 - plot_saw] fewer plot required than generated, deleting extra plots
+[02-03-2018 07:12:39 PM - INFO - plotting.py:84 - plot_saw] plot for SAW of length 4 saved
+[02-03-2018 07:12:39 PM - INFO - __main__.py:60 - <module>] beginning run 5 of 20
+[02-03-2018 07:12:39 PM - INFO - computations.py:66 - do_run] computation of 44 SAWs completed
+[02-03-2018 07:12:39 PM - INFO - computations.py:80 - do_run] recursive generation of length 5 took 5.246186 ms
+[02-03-2018 07:12:39 PM - INFO - csv_writing.py:29 - write_to_file] overwriting line 5 with new data
+[02-03-2018 07:12:39 PM - INFO - plotting.py:23 - plot_saw] 8 min configs found for SAW of length 5
+[02-03-2018 07:12:39 PM - INFO - plotting.py:26 - plot_saw] making plot with 3 rows and 3 cols
+[02-03-2018 07:12:39 PM - INFO - plotting.py:33 - plot_saw] fewer plot required than generated, deleting extra plots
+[02-03-2018 07:12:40 PM - INFO - plotting.py:84 - plot_saw] plot for SAW of length 5 saved
+[02-03-2018 07:12:40 PM - INFO - __main__.py:60 - <module>] beginning run 6 of 20
+[02-03-2018 07:12:40 PM - INFO - computations.py:66 - do_run] computation of 184 SAWs completed
+[02-03-2018 07:12:40 PM - INFO - computations.py:80 - do_run] recursive generation of length 6 took 21.036077 ms
+[02-03-2018 07:12:40 PM - INFO - csv_writing.py:29 - write_to_file] overwriting line 6 with new data
+[02-03-2018 07:12:40 PM - INFO - plotting.py:23 - plot_saw] 8 min configs found for SAW of length 6
+[02-03-2018 07:12:40 PM - INFO - plotting.py:26 - plot_saw] making plot with 3 rows and 3 cols
+[02-03-2018 07:12:40 PM - INFO - plotting.py:33 - plot_saw] fewer plot required than generated, deleting extra plots
+[02-03-2018 07:12:41 PM - INFO - plotting.py:84 - plot_saw] plot for SAW of length 6 saved
+[02-03-2018 07:12:41 PM - INFO - __main__.py:60 - <module>] beginning run 7 of 20
+[02-03-2018 07:12:41 PM - INFO - computations.py:66 - do_run] computation of 552 SAWs completed
+[02-03-2018 07:12:41 PM - INFO - computations.py:80 - do_run] recursive generation of length 7 took 76.614547 ms
+[02-03-2018 07:12:41 PM - INFO - csv_writing.py:29 - write_to_file] overwriting line 7 with new data
+[02-03-2018 07:12:41 PM - INFO - plotting.py:23 - plot_saw] 8 min configs found for SAW of length 7
+[02-03-2018 07:12:41 PM - INFO - plotting.py:26 - plot_saw] making plot with 3 rows and 3 cols
+[02-03-2018 07:12:42 PM - INFO - plotting.py:33 - plot_saw] fewer plot required than generated, deleting extra plots
+[02-03-2018 07:12:43 PM - INFO - plotting.py:84 - plot_saw] plot for SAW of length 7 saved
+[02-03-2018 07:12:43 PM - INFO - __main__.py:60 - <module>] beginning run 8 of 20
+[02-03-2018 07:12:43 PM - INFO - computations.py:66 - do_run] computation of 2544 SAWs completed
+[02-03-2018 07:12:43 PM - INFO - computations.py:80 - do_run] recursive generation of length 8 took 286.505511 ms
+[02-03-2018 07:12:43 PM - INFO - csv_writing.py:29 - write_to_file] overwriting line 8 with new data
+[02-03-2018 07:12:43 PM - INFO - plotting.py:23 - plot_saw] 8 min configs found for SAW of length 8
+[02-03-2018 07:12:43 PM - INFO - plotting.py:26 - plot_saw] making plot with 3 rows and 3 cols
+[02-03-2018 07:12:43 PM - INFO - plotting.py:33 - plot_saw] fewer plot required than generated, deleting extra plots
+[02-03-2018 07:12:44 PM - INFO - plotting.py:84 - plot_saw] plot for SAW of length 8 saved
+[02-03-2018 07:12:44 PM - INFO - __main__.py:60 - <module>] beginning run 9 of 20
+[02-03-2018 07:12:45 PM - INFO - computations.py:66 - do_run] computation of 8040 SAWs completed
+[02-03-2018 07:12:45 PM - INFO - computations.py:80 - do_run] recursive generation of length 9 took 1.095617 s
+[02-03-2018 07:12:45 PM - INFO - csv_writing.py:29 - write_to_file] overwriting line 9 with new data
+[02-03-2018 07:12:45 PM - INFO - plotting.py:23 - plot_saw] 16 min configs found for SAW of length 9
+[02-03-2018 07:12:45 PM - INFO - plotting.py:26 - plot_saw] making plot with 4 rows and 4 cols
+[02-03-2018 07:12:47 PM - INFO - plotting.py:84 - plot_saw] plot for SAW of length 9 saved
+[02-03-2018 07:12:47 PM - INFO - __main__.py:60 - <module>] beginning run 10 of 20
+[02-03-2018 07:12:51 PM - INFO - computations.py:66 - do_run] computation of 38976 SAWs completed
+[02-03-2018 07:12:51 PM - INFO - computations.py:80 - do_run] recursive generation of length 10 took 4.360349 s
+[02-03-2018 07:12:51 PM - INFO - csv_writing.py:29 - write_to_file] overwriting line 10 with new data
+[02-03-2018 07:12:51 PM - INFO - plotting.py:23 - plot_saw] 8 min configs found for SAW of length 10
+[02-03-2018 07:12:51 PM - INFO - plotting.py:26 - plot_saw] making plot with 3 rows and 3 cols
+[02-03-2018 07:12:51 PM - INFO - plotting.py:33 - plot_saw] fewer plot required than generated, deleting extra plots
+[02-03-2018 07:13:00 PM - INFO - __main__.py:50 - <module>] =============================================================================================
+[02-03-2018 07:13:00 PM - INFO - __main__.py:51 - <module>] beginning run
+[02-03-2018 07:13:00 PM - INFO - __main__.py:52 - <module>] final: True, N: 20, N_0: 18, run_mode: subset, data_file_name: data.csv
+[02-03-2018 07:13:00 PM - INFO - csv_writing.py:90 - setup_csv] headers found to be present and correct, not written
+[02-03-2018 07:13:00 PM - INFO - __main__.py:66 - <module>] beginning run 18 of 20
+[02-03-2018 07:24:58 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 6194648
+[02-03-2018 07:25:07 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 6257294
+[02-03-2018 07:28:14 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 7645248
+[02-03-2018 07:51:13 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 18927409
+[02-03-2018 08:07:17 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 26853265
+[02-03-2018 08:25:10 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 34251947
+[02-03-2018 08:36:43 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 38791533
+[02-03-2018 08:41:17 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 40656556
+[02-03-2018 08:49:00 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 43593850
+[02-03-2018 08:55:52 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 46911985
+[02-03-2018 08:57:49 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 47855772
+[02-03-2018 09:02:33 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 50254985
+[02-03-2018 09:06:29 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 52252182
+[02-03-2018 09:10:11 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 54129684
+[02-03-2018 09:16:01 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 56967501
+[02-03-2018 09:17:08 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 57508832
+[02-03-2018 09:47:08 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 72556359
+[02-03-2018 09:55:24 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 76397617
+[02-03-2018 09:55:31 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 76460310
+[02-03-2018 10:02:49 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 79852574
+[02-03-2018 10:30:28 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 93451253
+[02-03-2018 10:38:10 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 97291157
+[02-03-2018 10:42:31 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 99265735
+[02-03-2018 10:58:38 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 106801382
+[02-03-2018 11:10:54 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 112842922
+[02-03-2018 11:10:58 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 112873631
+[02-03-2018 11:28:53 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 122090425
+[02-03-2018 11:35:55 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 125465209
+[02-03-2018 11:52:27 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 133973146
+[02-04-2018 12:12:09 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 144175969
+[02-04-2018 12:12:55 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 144584398
+[02-04-2018 12:17:27 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 146967512
+[02-04-2018 12:17:46 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 147120909
+[02-04-2018 12:35:48 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 156480766
+[02-04-2018 12:39:52 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 158599397
+[02-04-2018 12:43:21 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 160385377
+[02-04-2018 12:47:59 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 162814241
+[02-04-2018 12:56:42 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 167348026
+[02-04-2018 01:17:13 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 177972803
+[02-04-2018 01:19:34 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 179220109
+[02-04-2018 01:25:40 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 182373343
+[02-04-2018 01:35:04 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 187223984
+[02-04-2018 01:35:23 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 187393580
+[02-04-2018 01:36:29 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 187976162
+[02-04-2018 01:44:39 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 192177576
+[02-04-2018 02:08:10 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 204136263
+[02-04-2018 02:30:41 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 215817427
+[02-04-2018 02:39:06 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 220136840
+[02-04-2018 02:42:40 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 221743331
+[02-04-2018 02:54:35 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 227951352
+[02-04-2018 03:14:50 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 238368548
+[02-04-2018 03:40:27 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 250660085
+[02-04-2018 04:02:31 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 261487240
+[02-04-2018 04:31:12 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 275504451
+[02-04-2018 04:49:47 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 283325662
+[02-04-2018 04:56:30 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 285933434
+[02-04-2018 05:16:10 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 294108192
+[02-04-2018 05:26:56 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 299237629
+[02-04-2018 05:50:20 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 310943550
+[02-04-2018 05:56:22 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 314038664
+[02-04-2018 06:05:49 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 318876766
+[02-04-2018 06:05:55 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 318932755
+[02-04-2018 06:07:07 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 319548427
+[02-04-2018 06:33:01 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 332679904
+[02-04-2018 06:53:48 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 343191404
+[02-04-2018 07:03:30 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 348083474
+[02-04-2018 07:05:13 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 348958065
+[02-04-2018 07:18:28 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 355108990
+[02-04-2018 07:37:26 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 364213863
+[02-04-2018 08:00:43 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 375786319
+[02-04-2018 08:18:12 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 384301486
+[02-04-2018 08:23:47 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 387127942
+[02-04-2018 08:25:39 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 388101612
+[02-04-2018 08:29:51 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 389928750
+[02-04-2018 08:42:02 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 394690779
+[02-04-2018 08:43:52 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 395414910
+[02-04-2018 08:50:27 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 397979232
+[02-04-2018 08:52:46 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 398933505
+[02-04-2018 08:58:11 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 401049810
+[02-04-2018 08:58:35 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 401215295
+[02-04-2018 09:08:47 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 405598153
+[02-04-2018 09:23:31 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 412829537
+[02-04-2018 09:37:33 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 419755576
+[02-04-2018 09:52:14 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 427248029
+[02-04-2018 10:06:04 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 434149277
+[02-04-2018 10:06:44 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 434502224
+[02-04-2018 10:43:02 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 452615542
+[02-04-2018 11:00:43 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 463179053
+[02-04-2018 11:51:47 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 493799730
+[02-04-2018 12:29:19 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 513619564
+[02-04-2018 12:29:19 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 513620533
+[02-04-2018 12:35:16 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 516710231
+[02-04-2018 12:54:26 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 526454185
+[02-04-2018 01:16:45 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 537689919
+[02-04-2018 01:20:24 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 539481082
+[02-04-2018 01:30:00 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 544282726
+[02-04-2018 01:49:54 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 554069009
+[02-04-2018 01:55:37 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 556942212
+[02-04-2018 02:12:33 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 565377911
+[02-04-2018 02:13:08 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 565680691
+[02-04-2018 02:20:42 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 569471664
+[02-04-2018 02:47:42 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 581571773
+[02-04-2018 03:07:14 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 589382812
+[02-04-2018 03:12:49 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 591712150
+[02-04-2018 03:25:47 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 598053375
+[02-04-2018 03:30:23 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 600364643
+[02-04-2018 03:37:59 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 604142366
+[02-04-2018 03:45:31 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 607888128
+[02-04-2018 04:09:04 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 619380673
+[02-04-2018 04:34:34 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 631724992
+[02-04-2018 04:35:41 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 632332382
+[02-04-2018 04:52:07 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 640362049
+[02-04-2018 04:57:07 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 642801646
+[02-04-2018 04:58:26 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 643410355
+[02-04-2018 05:05:39 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 646943168
+[02-04-2018 05:08:49 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 648438319
+[02-04-2018 05:27:24 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 657111107
+[02-04-2018 05:45:54 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 666243403
+[02-04-2018 06:01:03 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 673659035
+[02-04-2018 06:13:44 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 679502053
+[02-04-2018 07:01:12 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 705949008
+[02-04-2018 07:03:41 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 707316679
+[02-04-2018 07:07:32 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 709536819
+[02-04-2018 07:09:14 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 710493513
+[02-04-2018 07:48:48 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 729281121
+[02-04-2018 07:56:10 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 732940760
+[02-04-2018 08:08:08 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 738943935
+[02-04-2018 08:14:55 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 742379751
+[02-04-2018 08:28:05 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 748810525
+[02-04-2018 08:35:27 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 752477174
+[02-04-2018 08:43:49 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 757417916
+[02-04-2018 08:51:35 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 762144550
+[02-04-2018 09:16:43 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 777001941
+[02-04-2018 10:07:39 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 807068792
+[02-04-2018 10:10:09 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 808571563
+[02-04-2018 10:13:33 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 810638185
+[02-04-2018 10:16:04 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 812125602
+[02-04-2018 10:25:34 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 817633136
+[02-04-2018 10:26:58 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 818460813
+[02-04-2018 10:35:59 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 823884303
+[02-04-2018 10:56:34 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 835004504
+[02-04-2018 11:06:59 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 840597485
+[02-04-2018 11:16:02 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 845896684
+[02-04-2018 11:23:30 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 850208980
+[02-04-2018 11:31:45 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 855149252
+[02-04-2018 11:38:26 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 859123634
+[02-04-2018 11:48:48 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 865358765
+[02-04-2018 11:53:47 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 868348616
+[02-05-2018 12:05:37 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 875512414
+[02-05-2018 12:07:26 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 876593917
+[02-05-2018 12:53:11 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 902562204
+[02-05-2018 01:29:29 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 923865954
+[02-05-2018 01:33:52 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 926506198
+[02-05-2018 01:44:28 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 932709889
+[02-05-2018 01:55:28 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 939096392
+[02-05-2018 02:30:13 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 959743066
+[02-05-2018 02:42:52 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 966212087
+[02-05-2018 02:49:18 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 969618182
+[02-05-2018 02:58:56 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 975004284
+[02-05-2018 03:10:46 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 981777926
+[02-05-2018 03:30:14 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 993437313
+[02-05-2018 03:35:19 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 996490565
+[02-05-2018 03:42:28 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1000806784
+[02-05-2018 03:48:49 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1004597567
+[02-05-2018 03:53:14 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1007262066
+[02-05-2018 03:55:48 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1008599478
+[02-05-2018 03:59:28 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1010476006
+[02-05-2018 04:28:07 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1026782732
+[02-05-2018 04:43:40 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1035786426
+[02-05-2018 05:05:44 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1048743687
+[02-05-2018 05:22:03 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1058439766
+[02-05-2018 05:50:18 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1074948273
+[02-05-2018 05:50:42 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1075190974
+[02-05-2018 05:51:04 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1075415978
+[02-05-2018 06:15:03 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1089651491
+[02-05-2018 06:20:23 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1092536209
+[02-05-2018 06:26:20 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1095570220
+[02-05-2018 06:33:59 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1099553031
+[02-05-2018 06:49:31 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1107591930
+[02-05-2018 07:06:20 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1115990210
+[02-05-2018 07:06:22 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1116002175
+[02-05-2018 07:17:43 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1121823608
+[02-05-2018 07:21:42 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1123875310
+[02-05-2018 07:31:22 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1128806546
+[02-05-2018 07:45:54 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1136228553
+[02-05-2018 08:00:06 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1143576651
+[02-05-2018 08:03:49 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1145543844
+[02-05-2018 08:21:26 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1154577600
+[02-05-2018 08:33:30 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1160493190
+[02-05-2018 08:40:03 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1163889766
+[02-05-2018 09:12:40 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1180669350
+[02-05-2018 09:20:40 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1184500068
+[02-05-2018 09:24:00 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1186229340
+[02-05-2018 09:29:01 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1188798898
+[02-05-2018 09:33:45 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1191208872
+[02-05-2018 09:37:16 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1192984829
+[02-05-2018 09:47:46 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1198367991
+[02-05-2018 09:58:51 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1204089985
+[02-05-2018 10:05:58 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1207613534
+[02-05-2018 10:17:04 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1211961039
+[02-05-2018 10:19:18 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1212895850
+[02-05-2018 10:27:34 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1216410372
+[02-05-2018 10:37:13 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1220091017
+[02-05-2018 10:39:11 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1220937720
+[02-05-2018 11:34:21 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1247226134
+[02-05-2018 12:05:35 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1262895140
+[02-05-2018 12:28:44 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1274461055
+[02-05-2018 12:41:55 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1280438548
+[02-05-2018 01:02:46 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1290568483
+[02-05-2018 01:25:27 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1301603343
+[02-05-2018 01:28:54 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1303105233
+[02-05-2018 01:39:28 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1308248480
+[02-05-2018 02:07:34 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1321988222
+[02-05-2018 02:08:11 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1322295302
+[02-05-2018 02:10:50 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1323564350
+[02-05-2018 02:13:01 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1324496282
+[02-05-2018 03:07:31 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1347456419
+[02-05-2018 03:32:50 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1360208964
+[02-05-2018 03:46:02 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1366662355
+[02-05-2018 03:56:57 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1371689171
+[02-05-2018 04:23:55 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1384992159
+[02-05-2018 04:34:44 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1390133815
+[02-05-2018 04:39:11 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1392175706
+[02-05-2018 04:59:55 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1402277918
+[02-05-2018 05:02:38 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1403658571
+[02-05-2018 05:02:49 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1403756947
+[02-05-2018 05:45:13 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1424857577
+[02-05-2018 05:57:26 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1431027438
+[02-05-2018 06:08:56 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1436469019
+[02-05-2018 06:15:27 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1438911827
+[02-05-2018 06:15:55 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1439128157
+[02-05-2018 07:05:27 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1460569076
+[02-05-2018 07:08:34 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1462134524
+[02-05-2018 07:13:50 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1464749321
+[02-05-2018 07:30:08 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1472985067
+[02-05-2018 07:42:44 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1478403823
+[02-05-2018 07:51:10 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1482308864
+[02-05-2018 07:51:46 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1482583326
+[02-05-2018 08:01:58 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1486855699
+[02-05-2018 08:13:15 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1491428336
+[02-05-2018 08:14:37 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1491993600
+[02-05-2018 08:35:08 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1500837244
+[02-05-2018 08:57:59 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1510508212
+[02-05-2018 08:59:49 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1511276598
+[02-05-2018 09:33:26 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1525525660
+[02-05-2018 09:36:04 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1526580463
+[02-05-2018 09:44:21 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1530053656
+[02-05-2018 09:45:36 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1530614579
+[02-05-2018 09:47:14 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1531285404
+[02-05-2018 10:06:04 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1539217056
+[02-05-2018 10:13:53 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1542665368
+[02-05-2018 10:15:40 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1543461909
+[02-05-2018 10:22:12 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1546611529
+[02-05-2018 10:34:35 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1553140756
+[02-05-2018 10:38:42 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1555099521
+[02-05-2018 10:38:45 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1555126945
+[02-05-2018 10:40:57 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1556305625
+[02-05-2018 10:52:14 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1563033102
+[02-05-2018 11:03:39 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1569680875
+[02-05-2018 11:13:57 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1575597919
+[02-05-2018 11:38:53 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1587967584
+[02-05-2018 11:39:03 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1588057255
+[02-05-2018 11:39:04 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1588060676
+[02-05-2018 11:47:23 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1592141544
+[02-05-2018 11:52:56 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1595394387
+[02-05-2018 11:54:59 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1596684550
+[02-05-2018 11:57:51 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1598428953
+[02-06-2018 12:03:37 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1601983479
+[02-06-2018 12:04:30 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1602514901
+[02-06-2018 12:15:22 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1609267354
+[02-06-2018 12:30:58 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1618734975
+[02-06-2018 12:33:05 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1619899442
+[02-06-2018 01:11:25 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1642022887
+[02-06-2018 01:16:25 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1644996821
+[02-06-2018 01:29:06 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1652444997
+[02-06-2018 01:34:20 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1655491155
+[02-06-2018 01:40:08 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1658734492
+[02-06-2018 01:47:00 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1662281895
+[02-06-2018 01:51:22 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1664944379
+[02-06-2018 01:52:52 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1665873574
+[02-06-2018 01:55:13 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1667312444
+[02-06-2018 02:22:54 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1684094472
+[02-06-2018 02:25:20 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1685599022
+[02-06-2018 02:25:39 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1685796551
+[02-06-2018 02:40:40 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1694966077
+[02-06-2018 02:49:10 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1700208179
+[02-06-2018 02:53:48 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1702853148
+[02-06-2018 03:26:49 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1722307568
+[02-06-2018 03:41:22 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1731269104
+[02-06-2018 03:48:09 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1735465488
+[02-06-2018 03:49:15 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1736121930
+[02-06-2018 04:04:23 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1745294803
+[02-06-2018 04:06:39 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1746550104
+[02-06-2018 04:16:41 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1752689309
+[02-06-2018 04:27:31 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1758981816
+[02-06-2018 04:30:06 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1760531185
+[02-06-2018 05:11:06 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1785127253
+[02-06-2018 05:12:59 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1786235362
+[02-06-2018 05:15:35 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1787818221
+[02-06-2018 05:22:58 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1792339879
+[02-06-2018 05:30:33 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1796949465
+[02-06-2018 05:30:45 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1797085893
+[02-06-2018 05:31:11 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1797367157
+[02-06-2018 05:41:06 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1803376892
+[02-06-2018 05:43:52 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1805016924
+[02-06-2018 06:07:26 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1819157768
+[02-06-2018 06:12:31 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1822262749
+[02-06-2018 06:13:10 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1822614115
+[02-06-2018 06:27:23 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1831330925
+[02-06-2018 06:30:21 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1833106774
+[02-06-2018 06:48:02 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1843962093
+[02-06-2018 07:05:13 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1854612165
+[02-06-2018 07:11:33 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1858594669
+[02-06-2018 07:17:29 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1862277271
+[02-06-2018 07:35:56 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1873569809
+[02-06-2018 07:38:29 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1875113983
+[02-06-2018 07:46:57 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1880207453
+[02-06-2018 07:54:21 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1884598479
+[02-06-2018 07:55:27 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1885285478
+[02-06-2018 08:18:59 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1899704354
+[02-06-2018 08:19:44 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1900152285
+[02-06-2018 08:46:37 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1916395264
+[02-06-2018 09:00:49 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1924837809
+[02-06-2018 09:10:34 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1930065056
+[02-06-2018 09:12:42 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1931192403
+[02-06-2018 09:26:36 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1939586395
+[02-06-2018 09:28:22 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1940603294
+[02-06-2018 09:29:13 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1941126636
+[02-06-2018 10:15:55 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1969022065
+[02-06-2018 10:31:11 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1977610634
+[02-06-2018 10:43:04 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1984474266
+[02-06-2018 10:50:45 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1988584305
+[02-06-2018 11:03:55 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 1995987464
+[02-06-2018 11:18:03 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2004563500
+[02-06-2018 11:32:53 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2013704074
+[02-06-2018 11:51:48 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2025163697
+[02-06-2018 12:08:29 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2035143309
+[02-06-2018 12:23:08 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2043890016
+[02-06-2018 12:41:57 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2055177047
+[02-06-2018 01:04:00 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2067697091
+[02-06-2018 01:12:56 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2072774440
+[02-06-2018 01:20:41 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2077358903
+[02-06-2018 01:28:02 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2081864328
+[02-06-2018 01:39:46 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2088769446
+[02-06-2018 01:55:19 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2098219067
+[02-06-2018 02:11:47 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2107642698
+[02-06-2018 02:14:25 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2109000696
+[02-06-2018 02:38:07 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2122260917
+[02-06-2018 03:20:11 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2147718225
+[02-06-2018 03:23:17 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2149622659
+[02-06-2018 03:30:32 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2154048360
+[02-06-2018 03:37:33 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2158145502
+[02-06-2018 03:48:30 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2164779198
+[02-06-2018 04:02:41 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2173091574
+[02-06-2018 04:12:08 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2178904359
+[02-06-2018 04:39:13 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2193935720
+[02-06-2018 05:05:17 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2208304695
+[02-06-2018 05:30:06 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2220001060
+[02-06-2018 05:41:21 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2225192027
+[02-06-2018 06:11:44 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2241805776
+[02-06-2018 06:14:50 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2243614386
+[02-06-2018 06:25:23 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2249760959
+[02-06-2018 06:38:17 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2257073473
+[02-06-2018 06:53:28 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2265695192
+[02-06-2018 06:57:46 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2268184858
+[02-06-2018 07:00:35 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2269759427
+[02-06-2018 07:31:44 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2286866319
+[02-06-2018 07:37:00 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2289437133
+[02-06-2018 07:41:23 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2291679792
+[02-06-2018 07:43:11 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2292604929
+[02-06-2018 07:45:19 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2293688552
+[02-06-2018 07:57:26 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2299442509
+[02-06-2018 08:14:17 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2309627428
+[02-06-2018 08:17:35 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2311605889
+[02-06-2018 08:43:01 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2326470400
+[02-06-2018 09:12:20 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2343580130
+[02-06-2018 09:23:10 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2349849724
+[02-06-2018 09:59:06 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2371288381
+[02-06-2018 09:59:58 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2371792349
+[02-06-2018 10:40:09 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2395696435
+[02-06-2018 10:49:02 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2401090818
+[02-06-2018 10:54:28 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2404414511
+[02-06-2018 11:04:11 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2410049675
+[02-06-2018 11:11:34 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2414330836
+[02-06-2018 11:15:06 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2416468029
+[02-06-2018 11:19:15 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2418950235
+[02-06-2018 11:21:55 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2420431859
+[02-06-2018 11:29:07 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2424675013
+[02-06-2018 11:45:56 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2432746266
+[02-06-2018 11:54:28 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2436709833
+[02-07-2018 12:00:18 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2439413408
+[02-07-2018 12:24:32 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2452037914
+[02-07-2018 12:38:22 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2460009906
+[02-07-2018 12:38:55 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2460333155
+[02-07-2018 12:39:02 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2460395524
+[02-07-2018 12:44:24 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2463504058
+[02-07-2018 12:46:56 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2464978133
+[02-07-2018 12:54:45 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2469359848
+[02-07-2018 12:54:56 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2469467988
+[02-07-2018 01:07:29 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2476243219
+[02-07-2018 01:23:14 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2484850985
+[02-07-2018 01:35:29 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2491854259
+[02-07-2018 01:46:49 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2497976923
+[02-07-2018 01:58:41 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2504476869
+[02-07-2018 02:00:20 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2505432538
+[02-07-2018 02:20:47 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2517075444
+[02-07-2018 02:36:46 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2526325835
+[02-07-2018 02:54:12 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2535121043
+[02-07-2018 02:58:56 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2537456475
+[02-07-2018 03:22:36 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2549758694
+[02-07-2018 04:14:00 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2579395826
+[02-07-2018 04:39:21 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2594573462
+[02-07-2018 04:42:38 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2596530553
+[02-07-2018 04:54:56 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2603899233
+[02-07-2018 05:07:19 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2611417240
+[02-07-2018 05:18:06 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2617745684
+[02-07-2018 05:33:48 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2627074336
+[02-07-2018 05:41:37 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2631744816
+[02-07-2018 05:44:41 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2633512469
+[02-07-2018 05:44:58 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2633681180
+[02-07-2018 05:56:51 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2640783988
+[02-07-2018 06:29:28 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2660099621
+[02-07-2018 06:31:05 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2661084496
+[02-07-2018 07:02:18 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2679369777
+[02-07-2018 07:25:30 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2692916385
+[02-07-2018 07:33:45 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2697487880
+[02-07-2018 07:36:53 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2699188889
+[02-07-2018 08:08:15 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2717803805
+[02-07-2018 08:20:09 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2724883723
+[02-07-2018 08:26:40 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2728654917
+[02-07-2018 08:29:30 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2730316124
+[02-07-2018 08:41:12 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2737019855
+[02-07-2018 08:56:37 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2746084654
+[02-07-2018 08:56:40 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2746112614
+[02-07-2018 09:01:32 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2749116469
+[02-07-2018 09:20:59 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2759943381
+[02-07-2018 09:21:00 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2759949652
+[02-07-2018 09:22:10 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2760628029
+[02-07-2018 09:49:34 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2777070770
+[02-07-2018 09:59:35 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2783118849
+[02-07-2018 10:17:40 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2794032862
+[02-07-2018 10:37:00 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2805786291
+[02-07-2018 10:43:45 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2809590531
+[02-07-2018 10:45:13 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2810438560
+[02-07-2018 10:50:11 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2813131719
+[02-07-2018 10:52:58 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2814559696
+[02-07-2018 11:11:10 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2824405298
+[02-07-2018 11:13:57 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2825703964
+[02-07-2018 11:24:57 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2831776933
+[02-07-2018 11:27:45 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2833385782
+[02-07-2018 11:54:49 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2845994447
+[02-07-2018 12:02:05 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2849312830
+[02-07-2018 12:02:18 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2849423255
+[02-07-2018 12:11:38 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2854050729
+[02-07-2018 12:21:10 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2859457717
+[02-07-2018 12:45:38 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2873477463
+[02-07-2018 12:58:29 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2880722920
+[02-07-2018 01:04:28 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2883432002
+[02-07-2018 01:52:02 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2908588408
+[02-07-2018 01:54:32 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2909995925
+[02-07-2018 02:09:46 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2918663192
+[02-07-2018 02:10:06 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2918862205
+[02-07-2018 02:21:32 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2925706040
+[02-07-2018 02:44:13 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2939312113
+[02-07-2018 02:47:56 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2941559127
+[02-07-2018 02:51:15 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2943555350
+[02-07-2018 02:54:53 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2945758549
+[02-07-2018 02:55:31 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2946141398
+[02-07-2018 02:59:50 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2948383352
+[02-07-2018 03:02:23 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2949780456
+[02-07-2018 03:15:11 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2957249709
+[02-07-2018 03:35:19 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2968786421
+[02-07-2018 04:08:45 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2988719260
+[02-07-2018 04:24:21 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2998045235
+[02-07-2018 04:24:41 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 2998242078
+[02-07-2018 04:27:55 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3000215543
+[02-07-2018 04:32:55 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3003230976
+[02-07-2018 04:36:04 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3005114851
+[02-07-2018 04:42:01 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3008479964
+[02-07-2018 04:51:01 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3013768222
+[02-07-2018 05:00:06 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3019116737
+[02-07-2018 05:41:05 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3043361234
+[02-07-2018 05:56:48 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3052213772
+[02-07-2018 06:15:33 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3060143304
+[02-07-2018 06:37:27 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3070715209
+[02-07-2018 06:53:21 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3079817642
+[02-07-2018 07:00:42 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3084067048
+[02-07-2018 07:14:37 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3091869538
+[02-07-2018 07:29:18 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3099676327
+[02-07-2018 07:51:10 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3112035983
+[02-07-2018 07:53:55 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3113476935
+[02-07-2018 08:00:39 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3116949736
+[02-07-2018 08:04:03 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3118768829
+[02-07-2018 08:04:11 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3118840416
+[02-07-2018 08:17:33 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3126186720
+[02-07-2018 08:32:26 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3133401326
+[02-07-2018 08:32:48 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3133581315
+[02-07-2018 08:41:57 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3137841987
+[02-07-2018 08:51:41 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3142994762
+[02-07-2018 09:02:13 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3148869142
+[02-07-2018 09:05:48 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3150933638
+[02-07-2018 09:34:09 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3167240295
+[02-07-2018 09:36:13 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3168482492
+[02-07-2018 09:59:46 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3181580591
+[02-07-2018 10:04:22 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3184347169
+[02-07-2018 10:11:11 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3188145995
+[02-07-2018 10:16:40 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3191335426
+[02-07-2018 10:21:19 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3194036595
+[02-07-2018 10:28:59 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3198639630
+[02-07-2018 11:02:56 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3218792477
+[02-07-2018 11:18:00 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3227780999
+[02-07-2018 11:19:00 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3228380033
+[02-07-2018 11:22:21 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3230396820
+[02-07-2018 11:25:52 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3232528048
+[02-07-2018 11:35:20 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3238214607
+[02-07-2018 11:36:40 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3239017549
+[02-07-2018 11:52:34 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3248303024
+[02-07-2018 11:53:09 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3248635840
+[02-07-2018 11:54:24 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3249341250
+[02-07-2018 11:59:58 PM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3252608364
+[02-08-2018 12:24:59 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3267434366
+[02-08-2018 12:25:19 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3267630676
+[02-08-2018 12:38:32 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3275413021
+[02-08-2018 12:39:10 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3275782693
+[02-08-2018 12:41:05 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3276923736
+[02-08-2018 12:46:42 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3280232447
+[02-08-2018 12:54:37 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3284888059
+[02-08-2018 01:00:45 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3288560211
+[02-08-2018 01:07:52 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3292862379
+[02-08-2018 01:13:08 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3296051260
+[02-08-2018 01:14:32 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3296834059
+[02-08-2018 01:19:53 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3299826216
+[02-08-2018 01:27:56 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3304497326
+[02-08-2018 02:06:29 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3326472986
+[02-08-2018 02:35:22 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3343479908
+[02-08-2018 02:46:07 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3349895219
+[02-08-2018 02:51:11 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3352712355
+[02-08-2018 02:56:21 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3355652313
+[02-08-2018 03:15:52 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3366906938
+[02-08-2018 03:23:09 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3370755704
+[02-08-2018 03:25:20 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3371819807
+[02-08-2018 03:28:45 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3373876131
+[02-08-2018 03:31:34 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3375575617
+[02-08-2018 03:35:47 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3378146808
+[02-08-2018 03:54:40 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3389271015
+[02-08-2018 03:58:42 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3391671663
+[02-08-2018 03:58:44 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3391685167
+[02-08-2018 04:09:47 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3398204334
+[02-08-2018 04:24:44 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3407198506
+[02-08-2018 04:33:42 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3412550817
+[02-08-2018 04:37:31 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3414859815
+[02-08-2018 04:38:52 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3415677273
+[02-08-2018 04:56:43 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 3426377380
+[02-08-2018 04:59:34 AM - INFO - computations.py:66 - do_run] computation of 3428140888 SAWs completed
+[02-08-2018 04:59:34 AM - INFO - computations.py:80 - do_run] recursive generation of length 18 took 105 hr 46 min 34 s
+[02-08-2018 04:59:34 AM - INFO - csv_writing.py:37 - write_to_file] appending new data to eof at line 18
+[02-08-2018 04:59:34 AM - INFO - plotting.py:23 - plot_saw] 8 min configs found for SAW of length 18
+[02-08-2018 04:59:34 AM - INFO - plotting.py:26 - plot_saw] making plot with 3 rows and 3 cols
+[02-08-2018 04:59:35 AM - INFO - plotting.py:33 - plot_saw] fewer plot required than generated, deleting extra plots
+[02-08-2018 04:59:36 AM - INFO - plotting.py:84 - plot_saw] plot for SAW of length 18 saved
+[02-08-2018 04:59:36 AM - INFO - __main__.py:66 - <module>] beginning run 19 of 20
+[02-08-2018 04:59:45 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 68565
+[02-08-2018 05:25:42 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 13640577
+[02-08-2018 05:46:34 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 24702650
+[02-08-2018 06:03:34 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 33696077
+[02-08-2018 06:08:02 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 36073935
+[02-08-2018 06:08:10 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 36145548
+[02-08-2018 06:14:05 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 39284356
+[02-08-2018 06:17:53 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 41287091
+[02-08-2018 06:35:44 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 50737923
+[02-08-2018 07:11:24 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 69559215
+[02-08-2018 07:23:00 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 75644454
+[02-08-2018 07:59:12 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 94466838
+[02-08-2018 08:11:21 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 100881130
+[02-08-2018 08:15:25 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 103024984
+[02-08-2018 08:18:34 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 104685537
+[02-08-2018 08:25:05 AM - INFO - computations.py:277 - recursively_generate_saws_memory_optimized] status: 108137632
